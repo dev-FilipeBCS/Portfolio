@@ -1,0 +1,99 @@
+header {
+    background-image: url(/assets/images/Background_Intro.png);
+    background-size: cover;
+
+    min-width: 840px;
+
+    #info {
+        width: 60%;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    #avatar {
+        position: relative;
+        width: 112px;
+        aspect-ratio: 1/1;
+        justify-self: center;
+
+        img:nth-child(1) {
+            width: 87px;
+            aspect-ratio: 1/1;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the image */
+        }
+
+        img:nth-child(2) {
+            width: 96px;
+            aspect-ratio: 1/1;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the SVG border */
+        }
+
+        img:nth-child(3) {
+            width: 31px;
+            height: 25px;
+
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+
+    #header-text {
+        padding-top: 56px;
+        max-width: 80%;
+
+        font: var(--subtitle);
+        color: var(--color-gray-500);
+
+        text-align: center;
+
+        h1 {
+            padding: 8px 0 20px;
+
+            font-family: var(--title-lg);
+            color: var(--color-gray-600);
+        }
+
+        .description {
+            font: var(--text-sm);
+            color: var(--color-gray-400);
+        }
+
+    }
+
+    #languages {
+        display: flex;
+        color: var(--color-gray-500);
+        gap: 16px;
+
+        padding-block: 80px 94px;
+
+        div {
+            display: flex; /* Use flexbox to align items within each div */
+            align-items: center; /* Vertically centers the image and text */
+            justify-content: center; /* Horizontally centers the image and text */
+            background-color: var(--color-gray-300);
+            padding: 8px 16px;
+            border-radius: 999px;
+            gap: 8px; /* Adds space between the image and text */
+        }
+
+        img {
+            width: 24px;
+            aspect-ratio: 1/1;
+        }
+
+        span {
+            font: var(--text-md);
+            text-align: center;
+        }
+    }
+}
