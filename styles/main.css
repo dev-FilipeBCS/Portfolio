@@ -1,0 +1,59 @@
+#projects {
+    display: block;
+    background-color: var(--color-gray-200);
+    background-size: cover;
+
+    width: 100%;
+    padding: 72px 120px 144px;
+
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+
+    div {
+        justify-content: center;
+        padding-block: 48px;
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--color-gray-600);
+    }
+
+    figcaption {
+        margin: 0;
+        padding: 0px 12px 17px;
+    }
+
+    h3 {
+        font: var(--title-sm);
+        color: var(--color-gray-600);
+        text-align: left;
+    }
+
+    h4 {
+        font: var(--text-sm);
+        color: var(--color-gray-600);
+        text-align: left;
+    }
+
+    #cards{
+        gap: 24px;
+    }
+
+    .card {
+        width: 330px;
+        height: 280px;
+
+        background-color: var(--color-gray-300);
+        border-radius: 8px;
+
+
+        img {
+            width: 100%;
+            padding: 12px 12px 10px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+        }
+    }
+}

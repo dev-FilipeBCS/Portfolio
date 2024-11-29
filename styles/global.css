@@ -31,3 +31,7 @@
     --text-md: 400 16px/140% var(--font-family-maven);
     --text-sm: 400 12px/140% var(--font-family-maven);
 }
+
+.container {
+    min-width: 840px;
+}

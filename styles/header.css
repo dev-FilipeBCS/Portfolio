@@ -1,13 +1,14 @@
-header {
+#info {
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
+    background-position: center;
+    width: 100%;
 
-    min-width: 840px;
+    position: relative;
 
-    #info {
-        width: 60%;
+    div {
         justify-self: center;
-        justify-items: center;
+        width: 60%;
     }
 
     #avatar {
@@ -47,6 +48,7 @@ header {
     }
 
     #header-text {
+        justify-self: center;
         padding-top: 56px;
         max-width: 80%;
 
@@ -56,6 +58,8 @@ header {
         text-align: center;
 
         h1 {
+            text-justify: center;
+            text
             padding: 8px 0 20px;
 
             font-family: var(--title-lg);
@@ -71,21 +75,24 @@ header {
 
     #languages {
         display: flex;
-        color: var(--color-gray-500);
-        gap: 16px;
+        flex-flow: row;
+        justify-content: center;
 
+        gap: 16px;
         padding-block: 80px 94px;
 
+        color: var(--color-gray-500);
+        
         div {
-            display: flex; /* Use flexbox to align items within each div */
-            align-items: center; /* Vertically centers the image and text */
-            justify-content: center; /* Horizontally centers the image and text */
+            display: flex;
+
             background-color: var(--color-gray-300);
             padding: 8px 16px;
             border-radius: 999px;
-            gap: 8px; /* Adds space between the image and text */
+            gap: 8px;
+            justify-content: center;
         }
-
+       
         img {
             width: 24px;
             aspect-ratio: 1/1;
@@ -96,4 +103,9 @@ header {
             text-align: center;
         }
     }
+}
+
+#info a img{
+    display: flex;
+    justify-self: center;
 }

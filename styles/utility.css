@@ -1,3 +1,9 @@
 .red {
     color: var(--color-red);
+    font: var(--subtitle);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
