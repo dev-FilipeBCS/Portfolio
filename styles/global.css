@@ -30,8 +30,24 @@
 
     --text-md: 400 16px/140% var(--font-family-maven);
     --text-sm: 400 12px/140% var(--font-family-maven);
+
+    background-color: var(--color-gray-200);
+    background-size: cover;
+
+    width: 100%;
 }
 
 .container {
     min-width: 840px;
+}
+
+header {
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    
+    h2 {
+        font: var(--title-md);
+        color: var(--color-gray-600);
+    }
 }

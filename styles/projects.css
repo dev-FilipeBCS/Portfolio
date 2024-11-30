@@ -1,9 +1,6 @@
 #projects {
     display: block;
-    background-color: var(--color-gray-200);
-    background-size: cover;
 
-    width: 100%;
     padding: 72px 120px 144px;
 
     justify-self: center;
@@ -13,11 +10,6 @@
     div {
         justify-content: center;
         padding-block: 48px;
-    }
-
-    h2 {
-        font: var(--title-md);
-        color: var(--color-gray-600);
     }
 
     figcaption {
@@ -37,11 +29,11 @@
         text-align: left;
     }
 
-    #cards{
+    #project-cards{
         gap: 24px;
     }
 
-    .card {
+    .project-card {
         width: 330px;
         height: 280px;
 
