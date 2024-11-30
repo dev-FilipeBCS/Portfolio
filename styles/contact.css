@@ -1,0 +1,53 @@
+#contact {
+    background-image: url(/assets/images/Background_Contacts.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+
+    padding-block: 128px 200px;
+
+    div {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    div:nth-child(2) {
+        padding-block: 48px;
+    }
+
+    h1 {
+        font: var(--title-md);
+        color: var(--color-gray-600);
+    }
+
+    h2 {
+        font: var(--text-md);
+        color: var(--color-gray-600);
+    }
+
+    a {
+        text-decoration: none;
+        font: var(--text-md);
+        color: var(--color-gray-500);
+    }
+
+    .links {
+        gap: 16px;
+    }
+
+    .link {
+        width: 400px;
+        background-color: var(--color-gray-300);
+        border-radius: 8px;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+}

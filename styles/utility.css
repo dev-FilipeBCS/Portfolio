@@ -3,7 +3,16 @@
     font: var(--subtitle);
 }
 
+.purple {
+    color: var(--color-purple);
+    font: var(--subtitle);
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.container {
+    min-width: 840px;
 }
